@@ -7,14 +7,19 @@
     "dev": "nodemon app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["slack", "bot", "docsend", "pdf"],
+  "keywords": [
+    "slack",
+    "bot",
+    "docsend",
+    "pdf"
+  ],
   "author": "",
   "license": "ISC",
   "description": "Slack bot for converting DocSend URLs to PDFs",
   "dependencies": {
     "@slack/bolt": "^4.4.0",
     "dotenv": "^17.2.0",
-    "node-fetch": "^3.3.2"
+    "node-fetch": "^2.7.0"
   },
   "engines": {
     "node": ">=18.0.0"
